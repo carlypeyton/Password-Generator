@@ -8,7 +8,6 @@ var numbers = "0123456789";
 var specialCharacters = "!#$%&*+-<>=?@^";
 
 //Define variables for each character type
-var length;
 var confirmLowerCase;
 var confirmUpperCase;
 var confirmNumber;
@@ -36,7 +35,7 @@ function writePassword() {
   confirmNumber = confirm("Do you want to include numbers in your password?");
   confirmSpecialCharacters = confirm("Do you want to include special characters in your password?");
   //If user does not confirm any character types, they are alerted they must select at least one character type
-  if (confirmLowerCase === false && confirmUpperCase === false && confirmNumber === false && confirmSpecial === false) {
+  if (confirmLowerCase === false && confirmUpperCase === false && confirmNumber === false && confirmSpecialCharacters === false) {
     alert("Please select at least one character type.");
     return;
   } else { }
