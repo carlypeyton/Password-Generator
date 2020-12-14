@@ -1,4 +1,7 @@
 # Password-Generator
+
+Link to deployed html: https://carlypeyton.github.io/Password-Generator/index.html
+
 This was a trickier project for me, and I spent many days working on it, ultimately starting over from scratch a number of times. I ended up creating a new repository and re-making much more detailed commits, step by step, to clean up my repository and allow me to look back on for future reference. It was helpful for me to walk back through each piece and put the logic into words. 
 
 I started by creating the 4 character types, and setting string values for each. I had previously tried using arrays but was having difficulty, so decided to use string values to utiize .charAt that we recently went over in class. I defined these variables, and then created empty strings for my future randomly generated password AND the password characters group that the former would be randomly composed of. 
@@ -10,3 +13,10 @@ I set my randomlyGeneratedPassword variable equal to the password ID within the 
 Finally, I went back through and cleaned up my code, running the script file through a javascript validator to check for any errors.
 
 Overall, this homework assignment was challenging but I learned a lot. It will be a helpful reference for me going forward.
+
+![Alt text](Screen Shot 2020-12-13 at 11.00.51 PM.png)
+![Alt text](Screen Shot 2020-12-13 at 11.00.59 PM.png)
+![Alt text](Screen Shot 2020-12-13 at 11.01.10 PM.png)
+![Alt text](Screen Shot 2020-12-13 at 11.01.17 PM.png)
+![Alt text](Screen Shot 2020-12-13 at 11.01.26 PM.png)
+![Alt text](Screen Shot 2020-12-13 at 11.01.40 PM.png)
