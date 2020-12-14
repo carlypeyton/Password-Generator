@@ -42,3 +42,27 @@ function writePassword() {
 
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
+
+// Call generatePassword function
+generatePassword();
+
+// Write randomlyGeneratedPassword in password box, by finding password ID 
+document.getElementById("password").innerHTML = randomlyGeneratedPassword;
+
+//Function to generate password based on user responses to confirms.
+//If character type selected, a random character from within that string type is added to the passwordCharacters string.
+function generatePassword() {
+  randomlyGeneratedPassword = "";
+    if (confirmLowerCase) {
+        passwordCharacters += lowerCase;
+    }
+    if (confirmUpperCase) {
+        passwordCharacters += upperCase;
+    }
+    if (confirmNumber) {
+        passwordCharacters += numbers;
+    }
+    if (confirmSpecialCharacters) {
+        passwordCharacters += specialCharacters;
+    }
+  }
