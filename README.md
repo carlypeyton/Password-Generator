@@ -14,9 +14,9 @@ Finally, I went back through and cleaned up my code, running the script file thr
 
 Overall, this homework assignment was challenging but I learned a lot. It will be a helpful reference for me going forward.
 
-![ScreenShot](Screen Shot 2020-12-13 at 11.00.51 PM.png)
-![ScreenShot](Screen Shot 2020-12-13 at 11.00.59 PM.png)
-![ScreenShot](Screen Shot 2020-12-13 at 11.01.10 PM.png)
-![ScreenShot](Screen Shot 2020-12-13 at 11.01.17 PM.png)
-![ScreenShot](Screen Shot 2020-12-13 at 11.01.26 PM.png)
-![ScreenShot](Screen Shot 2020-12-13 at 11.01.40 PM.png)
+<img src = "Screen Shot 2020-12-13 at 11.00.51 PM.png">
+<img src = "Screen Shot 2020-12-13 at 11.00.59 PM.png">
+<img src = "Screen Shot 2020-12-13 at 11.01.10 PM.png">
+<img src = "Screen Shot 2020-12-13 at 11.01.17 PM.png">
+<img src = "Screen Shot 2020-12-13 at 11.01.26 PM.png">
+<img src = "Screen Shot 2020-12-13 at 11.01.40 PM.png">
