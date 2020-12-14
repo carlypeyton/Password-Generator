@@ -65,4 +65,13 @@ function generatePassword() {
     if (confirmSpecialCharacters) {
         passwordCharacters += specialCharacters;
     }
+     //As long as the length of the password is less than the length the user input, a random 
+    //character from within the passwordCharacters will be selected and added to randomlyGeneratedPassword
+    for (let i = 0; i < length; i++) {
+      randomlyGeneratedPassword += passwordCharacters.charAt(
+          Math.floor(Math.random() * passwordCharacters.length)
+      );
   }
+  //Return FINAL PASSWORD
+  return randomlyGeneratedPassword;
+}
