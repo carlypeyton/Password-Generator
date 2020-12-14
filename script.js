@@ -47,9 +47,6 @@ function writePassword() {
 // Add event listener to generate button
 generateBtn.addEventListener("click", writePassword);
 
-// Call generatePassword function
-generatePassword();
-
 // Write randomlyGeneratedPassword in password box, by finding password ID 
 document.getElementById("password").innerHTML = randomlyGeneratedPassword;
 
