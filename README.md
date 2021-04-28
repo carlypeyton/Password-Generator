@@ -1,15 +1,42 @@
 # Password-Generator
 
-Link to deployed html: https://carlypeyton.github.io/Password-Generator/index.html
+## Project Description
 
-I started by creating the 4 character types, and setting string values for each. I had previously tried using arrays but was having difficulty, so decided to use string values to utiize .charAt that we recently went over in class. I defined these variables, and then created empty strings for my future randomly generated password AND the password characters group that the former would be randomly composed of. 
+This application allows users to generate a random password baed on criteria they've selected. This application runs in the browser, and features dynamically updated HTML and CSS.
 
-Next I began on my write password function. I created a prompt for password length, alerting the user if they input an invalid value or one outside the acceptable length range. I created confirms for each character type. The user is alerted if they do not select at least one character type, and must try again.
+### User Story
 
-I set my randomlyGeneratedPassword variable equal to the password ID within the HTML doc, so that it would be displayed in the generator box on the webpage. I then created my generate password function, using if statements to evaluate user responses to confirms, and if statement is true, a randomly selected letter from that string is added to the password characters group. For all acceptable password lengths, per user prompt, a character within the password characters string for each character type is added to the randomly generated password. The randomly generated password is then returned.
+```
+AS AN employee with access to sensitive data
+I WANT to randomly generate a password that meets certain criteria
+SO THAT I can create a strong password that provides greater security
+```
 
-Finally, I went back through and cleaned up my code, running the script file through a javascript validator to check for any errors.
+### Acceptance Criteria
 
+```
+GIVEN I need a new, secure password
+WHEN I click the button to generate a password
+THEN I am presented with a series of prompts for password criteria
+WHEN prompted for password criteria
+THEN I select which criteria to include in the password
+WHEN prompted for the length of the password
+THEN I choose a length of at least 8 characters and no more than 128 characters
+WHEN prompted for character types to include in the password
+THEN I choose lowercase, uppercase, numeric, and/or special characters
+WHEN I answer each prompt
+THEN my input should be validated and at least one character type should be selected
+WHEN all prompts are answered
+THEN a password is generated that matches the selected criteria
+WHEN the password is generated
+THEN the password is either displayed in an alert or written to the page
+![image](https://user-images.githubusercontent.com/73730307/116423308-918ede80-a80e-11eb-9e03-bd90a03c42be.png)
+```
+
+## Deployed Application 
+* Link to Deployed Application: https://carlypeyton.github.io/Password-Generator/index.html
+
+## Application Walkthrough
 <img src = "Screen Shot 2020-12-13 at 11.00.51 PM.png">
 <img src = "Screen Shot 2020-12-13 at 11.00.59 PM.png">
 <img src = "Screen Shot 2020-12-13 at 11.01.10 PM.png">
